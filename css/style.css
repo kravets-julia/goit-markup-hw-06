@@ -778,6 +778,7 @@ body {
 
     color: var(--main-color);
     margin-bottom: 4px;
+
 }
 
 .form-field {
@@ -789,11 +790,9 @@ body {
 .service-input {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    padding: 12px 42px;
 }
 
-textarea {
-    resize: none;
-}
 
 .service-btn {
     font-family: inherit;
@@ -804,15 +803,27 @@ textarea {
     border: none;
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
 }
 
-/* textarea {
+.btn-send {
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+    padding: 12px 16px;
 
     font-size: 12px;
-    line-height: 14px;
+    line-height: 1.17;
     letter-spacing: 0.01em;
 
     color: rgba(117, 117, 117, 0.5);
 
-} */
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+
+}
+
+.input-icon {
+    position: absolute;
+}

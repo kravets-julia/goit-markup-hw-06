@@ -443,9 +443,12 @@
         </button>
         <form class="service-form">
           <div class="form-field">
-            <label for="service-name" class="service-text">Ім'я</label>
+           <svg class="input-icon">
+            <use href="./images/symbol-defs.svg#icon-phone"></use>
+           </svg>
 <input type="text" name="name" id="service-name" class="service-input">
-          </div>
+<label for="service-name" class="service-text">Ім'я</label>
+</div>
           <div class="form-field">
             <label for="service-tel" class="service-text">Телефон</label>
   <input type="tel" name="tel" id="service-tel" class="service-input">
@@ -456,11 +459,12 @@
 </div>
   <div class="form-field">
     <label for="service-comment" class="service-text">Коментар</label>
-  <textarea name="comment" id="service-comment" cols="30" rows="10" placeholder="Введіть текст" class="service-input">  </textarea>
+  <textarea name="comment" id="service-comment" cols="30" rows="10"  placeholder="Введіть текст"></textarea>
 </div>
-
+<div class="btn-send">
       <button type="button" class="service-btn">Відправити</button>
-</form>
+    </div>
+    </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
